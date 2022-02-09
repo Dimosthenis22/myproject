@@ -1,0 +1,48 @@
+<!-- Shows what kind of document this is - HTML -->
+<!DOCTYPE html>
+<!-- Root tag - defines the content of the HTML document, including head and body elements -->
+<html lang="en">
+<!-- Includes meta data about the HTML document -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jamie">
+    <meta name="description" content="Exercise 2 solution">
+    <title>Exercise 2 Solution</title>
+
+    <!-- Internal styles - now moved to styles.css -->
+    <!-- <style>
+        h2 {
+            color: blue;
+        }
+    </style> -->
+
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<!-- Body - contains the elements which make up the page the user will see -->
+<body>
+
+    <!-- 
+        * Styling: order of priority:
+        
+        - Highest: inline
+        - Second: internal
+        - Lowest: external
+
+    -->
+
+    <!-- Old h1 - very important heading, with inline styles - styles now moved to styles.css -->
+    <!-- <h1 style="color:red">This is the most important heading</h1> -->
+
+    <!-- New h1 - very important heading, with styling handled in styles.css -->
+    <h1>This is the most important heading</h1>
+
+    <!-- Using a paragraph because the content is a lot of information - a heading would not be semantically appropriate -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis quibusdam, molestiae consequatur sit voluptas animi? Iste corporis ratione officia natus debitis nam eius. Perferendis ipsam explicabo reiciendis quia cum!</p>
+
+    <!-- h2 - important heading, but less important than a h1 -->
+    <h2>This heading is a little less important</h2>
+    <!-- h6 - least important heading -->
+    <h6>This heading is even less important than the one above</h6>
+</body>
+</html>

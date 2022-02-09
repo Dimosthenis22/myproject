@@ -1,0 +1,13 @@
+ul {
+    list-style-type: circle;
+}
+ol {
+    list-style-type:  lower-alpha;
+}
+h1 {
+    color: olive;
+}
+h2 {
+    color: orange;
+}
+li {color: orangered;}
